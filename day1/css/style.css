@@ -1,0 +1,32 @@
+/* hero section */
+
+section.hero-bg {
+  background-color: #e1ebfa;
+}
+#hero {
+  width: 88%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.hero__left {
+  width: 58%;
+}
+
+.hero__left p {
+  font-size: 24px;
+  line-height: 36px;
+  color: #212529;
+  font-weight: 400;
+  margin: 25px 0 45px;
+}
+
+.hero__right {
+  width: 42%;
+  mask-image: url("../img/hero-mask.svg");
+  mask-repeat: no-repeat;
+  margin-left: 14%;
+}
