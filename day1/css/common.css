@@ -25,6 +25,7 @@ p {
 
 h1,
 h2,
+h3,
 h4 {
   font-family: "Oswald", sans-serif;
 }
@@ -47,9 +48,6 @@ a {
 
 .highlight {
   color: var(--high);
-  font-size: 72px;
-  font-family: "Satisfy", sans-serif;
-  font-weight: 400;
   position: relative;
   z-index: 1;
   margin: 0 10px;
@@ -57,7 +55,6 @@ a {
 
 .highlight::after {
   content: "";
-  height: 25px;
   left: -10px;
   bottom: 25px;
   position: absolute;
@@ -67,6 +64,14 @@ a {
 .highlight-hero::after {
   background-color: #b8e1ff;
   width: 250px;
+  height: 25px;
+}
+
+.highlight-hero,
+.highlight-res {
+  font-size: 72px;
+  font-family: "Satisfy", sans-serif;
+  font-weight: 400;
 }
 
 .btns {
@@ -105,4 +110,20 @@ a {
 .highlight-res::after {
   background-color: #fff3cd;
   width: 300px;
+  height: 25px;
 }
+
+.highlight-pros {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.highlight-pros::after {
+  position: absolute;
+  background-color: #e4a0a1;
+  width: 228px;
+  height: 8px;
+  left: -5px;
+  bottom: 0;
+}
+

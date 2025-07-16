@@ -88,10 +88,10 @@ section.hero-bg {
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
-.service a:hover{
+.service a:hover {
   color: var(--deep1);
 }
 
@@ -101,3 +101,58 @@ section.hero-bg {
   margin-left: 3px;
 }
 
+/* prospect */
+
+.pros {
+  background-image: url("../img/imgi_49_cta-img-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 180px 0 120px 80px;
+  position: relative;
+  z-index: 1;
+}
+
+.pros::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #00000081;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.pros-content {
+  width: 60%;
+}
+
+.pros-content h3,
+.pros-content h2,
+.pros-content a {
+  color: #fff;
+}
+
+.pros-content h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.pros-content h2 {
+  margin-bottom: 40px;
+}
+
+.pros-content a {
+  background-color: var(--high);
+  padding: 15px 30px;
+  font-size: 25px;
+  line-height: 38px;
+  border-radius: 8px;
+  font-weight: 400;
+  transition: 0.3s;
+}
+
+.pros-content a:hover {
+  background-color: var(--deep2);
+}
